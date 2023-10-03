@@ -30,6 +30,10 @@ class Main extends StatefulWidget {
 class _MyHomePageState extends State<Main> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const Scaffold(
+      body: Center(
+        child: Text('Hello World'),
+      ),
+    );
   }
 }
