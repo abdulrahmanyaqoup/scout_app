@@ -1,3 +1,4 @@
+import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Scout App',
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
+      theme: FlexThemeData.light(scheme: FlexScheme.verdunHemlock),
+      darkTheme: FlexThemeData.dark(scheme: FlexScheme.verdunHemlock),
+      themeMode: ThemeMode.system,
       home: const Main(),
     );
   }
@@ -30,9 +31,12 @@ class Main extends StatefulWidget {
 class _MyHomePageState extends State<Main> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
-        child: Text('Hello World'),
+        child: ElevatedButton(
+          onPressed: () {},
+          child: const Text("Hello"),
+        ),
       ),
     );
   }

@@ -1,0 +1,14 @@
+flutter_native_splash: 
+
+  color: "#E6E4C0" 
+  image: "assets/images/scarf_black_zoom.png" 
+  color_dark: "#494A00" 
+  image_dark: "assets/images/scarf_black_zoom.png" 
+  android_12:
+    color: "#E6E4C0" 
+    image: "assets/images/scarf_black_zoom.png" 
+    color_dark: "#494A00" 
+    image_dark: "assets/images/scarf_black_zoom.png" 
+
+  android: true 
+  ios: true
