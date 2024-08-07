@@ -20,13 +20,18 @@ dependencies:
     sdk: flutter
   intl: any
   shared_preferences: ^2.2.1
+  adaptive_theme: ^3.6.0
+  flutter_svg: ^2.0.10+1
+  animated_toggle_switch: ^0.8.2
+  google_fonts: ^6.2.1
+  
   
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   
-  flutter_lints: ^2.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
   generate: true
